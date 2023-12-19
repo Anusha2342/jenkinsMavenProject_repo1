@@ -8,7 +8,7 @@ public class OnPollSCM {
 	@Test
 	public void onPoll() {
 	ChromeDriver driver = new ChromeDriver();
-	driver.get("https://demowebshop.tricentis.com/");
+	driver.get("https://www.amazon.com/");
 	Reporter.log("navigated successfully",true);
 		
 	}
